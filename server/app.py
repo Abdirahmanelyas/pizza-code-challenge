@@ -48,7 +48,7 @@ class RestaurantById(Resource):
             response = make_response(response_dict, 200)
             return response
         response_dict = {
-            "error": "Restaurant not found"
+            "error": "Restaurant, not found"
         }
         response = make_response(response_dict, 404)
         return response
