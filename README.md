@@ -263,6 +263,6 @@ code:
 
 ```json
 {
-  "errors": ["validation errors"]
+  "errors": ["validation errors"],
 }
 ```
